@@ -1,9 +1,12 @@
-import React from "react";
+import React from 'react';
+import Counter from './components/Counter';
+import './styles/app.scss';
+
 
 function App() {
   return (
     <div className="App">
-      <div>Hello my name is ISKANDER</div>
+      <Counter/>
     </div>
   );
 }

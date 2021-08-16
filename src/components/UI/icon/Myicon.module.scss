@@ -1,0 +1,26 @@
+.myIcn{
+    user-select: none;
+    border-radius: 50%;
+    background-position: center;
+    background-clip: border-box;
+    width: 200px;
+    height: 200px;
+    transition: background-image .5s, box-shadow .5s;
+    background-repeat: no-repeat;
+}
+.mainLogo{
+    background-image: url(../../../img/logo.png);
+    transform:rotate(230deg);
+    background-size: 190%;
+    background-position: top;
+}
+.alterMainLogo{
+    background-image: url(../../../img/RICK.png);
+    animation: rot 5s linear infinite;
+    background-size: 60%;
+    background-position: center;
+}
+@keyframes rot {
+    0%      {transform: rotate(230deg)};
+    100%    {transform: rotate(590deg)};
+}

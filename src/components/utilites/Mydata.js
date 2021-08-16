@@ -1,0 +1,1 @@
+export const dataAboutMe = { day: 11, month: 3, year: 1997 }
